@@ -1,20 +1,15 @@
 
-# dbab-go
+# {{.Name}}
 
-[![MIT License](http://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![GoDoc](https://godoc.org/github.com/suntong/dbab-go?status.svg)](http://godoc.org/github.com/suntong/dbab-go)
-[![Go Report Card](https://goreportcard.com/badge/github.com/suntong/dbab-go)](https://goreportcard.com/report/github.com/suntong/dbab-go)
-[![travis Status](https://travis-ci.org/suntong/dbab-go.svg?branch=master)](https://travis-ci.org/suntong/dbab-go)
+{{render "license/shields" . "License" "MIT"}}
+{{template "badge/godoc" .}}
+{{template "badge/goreport" .}}
+{{template "badge/travis" .}}
 [![PoweredBy WireFrame](https://github.com/go-easygen/wireframe/blob/master/PoweredBy-WireFrame-R.svg)](http://godoc.org/github.com/go-easygen/wireframe)
 
-## TOC
-- [dbab-go - Pixel Server dbab-svr in Go](#dbab-go---pixel-server-dbab-svr-in-go)
-- [Download binaries](#download-binaries)
-- [Debian package](#debian-package)
-- [Install Source](#install-source)
-  - [Author(s) & Contributor(s)](#author(s)-&-contributor(s))
+## {{toc 5}}
 
-## dbab-go - Pixel Server dbab-svr in Go
+## {{.Name}} - Pixel Server dbab-svr in Go
 
 
 # Download binaries
@@ -36,7 +31,7 @@ Will be available next.
 To install the source code instead:
 
 ```
-go get github.com/suntong/dbab-go
+go get github.com/suntong/{{.Name}}
 ```
 
 
